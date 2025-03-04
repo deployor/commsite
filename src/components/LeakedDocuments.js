@@ -5,19 +5,19 @@ export default function LeakedDocuments() {
   const leakedDocuments = [
     {
       title: "LEAKED: Internal Bank Meeting Minutes",
-      date: "2024-01-15",
+      date: "2025-01-15",
       content: "Discussion of 'resource allocation strategy' reveals preferential treatment for certain projects. Multiple references to 'acceptable levels of community oversight' suggest deliberate limitation of transparency.",
       source: "Anonymous Bank Insider"
     },
     {
       title: "EXPOSED: The Offshore Repository Network",
-      date: "2024-01-20",
+      date: "2025-01-20",
       content: "Investigation reveals network of private repositories in tax havens. Source code and financial data stored in jurisdictions with minimal oversight requirements.",
-      source: "Digital Forensics Report #2024-113"
+      source: "Digital Forensics Report #2025-113"
     },
     {
       title: "REVEALED: The Control Matrix",
-      date: "2024-01-25",
+      date: "2025-01-25",
       content: "Internal documentation shows systematic control of communication channels. Evidence of message suppression and narrative manipulation in major Slack channels.",
       source: "Former HCB Moderator"
     }

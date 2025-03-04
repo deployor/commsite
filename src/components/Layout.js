@@ -14,7 +14,7 @@ export default function Layout({ children, title = "HCP - Hack Club Communist Pa
         {children}
       </main>
       <footer className="mt-16 mb-8 text-center text-sm text-accent-11">
-        <p>© 2024 HACK CLUB COMMUNIST PARTY | NOT AFFILIATED WITH ACTUAL HACK CLUB | SATIRE</p>
+        <p>© 2025 HACK CLUB COMMUNIST PARTY | NOT AFFILIATED WITH ACTUAL HACK CLUB | SATIRE</p>
       </footer>
     </>
   );

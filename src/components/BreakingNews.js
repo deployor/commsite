@@ -4,7 +4,7 @@ import { Brain } from '@phosphor-icons/react';
 export default function BreakingNews() {
   const breakingNews = [
     {
-      headline: "URGENT: Parliamentary Elections Now Open!",
+      headline: "URGENT: Parliamentary Elections Soon Open!",
       content: "The time has come, comrade! Cast your vote now at hcparliament.ovh/online-ballot and help shape the future of Hack Club!",
       date: "1 hour ago"
     },
