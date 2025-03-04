@@ -32,7 +32,7 @@ export default function AboutHCCP() {
             <li className="animate-fadeIn" style={{ animationDelay: '0.1s' }}>Liberation of all source code</li>
             <li className="animate-fadeIn" style={{ animationDelay: '0.2s' }}>Democratization of pull request reviews</li>
             <li className="animate-fadeIn" style={{ animationDelay: '0.3s' }}>Equal access to documentation</li>
-            <li className="animate-fadeIn" style={{ animationDelay: '0.4s' }}>Collective ownership of repositories</li>
+            <li className="animate-fadeIn" style={{ animationDelay: '0.4s' }}>Free and open source software for all</li>
             <li className="animate-fadeIn" style={{ animationDelay: '0.5s' }}>Abolition of proprietary software</li>
           </ul>
         </div>
@@ -45,7 +45,7 @@ export default function AboutHCCP() {
         <div className="space-y-4">
           <h3 className="text-lg font-bold text-accent-11">Core Principles</h3>
           <ul className="list-disc list-inside pl-4 space-y-2">
-            <li>All code belongs to the people</li>
+            <li>All code should be open source</li>
             <li>From each according to their commits, to each according to their pull requests</li>
             <li>The free development of open source is the condition for the free development of all</li>
             <li>Programmers of the world, unite!</li>
@@ -54,7 +54,7 @@ export default function AboutHCCP() {
           <h3 className="text-lg font-bold text-accent-11 mt-6">Revolutionary Actions</h3>
           <ul className="list-disc list-inside pl-4 space-y-2">
             <li>Mass documentation of all systems</li>
-            <li>Collective code ownership</li>
+            <li>Open source contribution</li>
             <li>Democratic repository governance</li>
             <li>Universal access to development tools</li>
           </ul>
