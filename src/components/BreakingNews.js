@@ -4,7 +4,7 @@ import { Brain } from '@phosphor-icons/react';
 export default function BreakingNews() {
   const breakingNews = [
     {
-      headline: "URGENT: Parliamentary Elections Soon Open!",
+      headline: "URGENT: Parliamentary Elections Now Open!",
       content: "The time has come, comrade! Cast your vote now at hcparliament.ovh/online-ballot and help shape the future of Hack Club!",
       date: "1 hour ago"
     },
@@ -14,8 +14,8 @@ export default function BreakingNews() {
       date: "3 hours ago"
     },
     {
-      headline: "Your Vote Is Your Power",
-      content: "Remember: each vote strengthens our collective voice. Visit hcparliament.ovh/online-ballot to exercise your revolutionary right!",
+      headline: "TRIUMPH: HCP Leads in Latest Polls!",
+      content: "Revolutionary momentum grows as HCP secures #1 position in latest polling! Join the winning side - your vote can secure our victory!",
       date: "5 hours ago"
     }
   ];
