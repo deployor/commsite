@@ -74,7 +74,7 @@ export default function RevolutionaryHeader() {
       </div>
 
       <a 
-        href="https://www.hcparliament.ovh/online-ballot" 
+        href="https://forms.fillout.com/t/kpB5PjqHmbus" 
         target="_blank" 
         rel="noopener noreferrer"
         className="mt-4 bg-accent-9 hover:bg-red-800 text-white font-bold py-4 px-8 rounded-lg revolutionary-button transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-accent-9/50 animate-pulse"

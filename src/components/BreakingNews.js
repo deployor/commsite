@@ -38,7 +38,7 @@ export default function BreakingNews() {
             <div className="flex justify-between items-center">
               <span className="text-accent-9 text-sm">{news.date}</span>
               <a
-                href="https://www.hcparliament.ovh/online-ballot"
+                href="https://forms.fillout.com/t/kpB5PjqHmbus"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-accent-11 hover:text-accent-9 transition-colors"

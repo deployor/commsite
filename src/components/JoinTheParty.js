@@ -34,7 +34,7 @@ export default function JoinTheParty() {
         
         <div className="flex flex-col items-center mt-8">
           <a 
-            href="https://www.hcparliament.ovh/online-ballot"
+            href="https://forms.fillout.com/t/kpB5PjqHmbus"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-accent-9 hover:bg-red-800 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors"
