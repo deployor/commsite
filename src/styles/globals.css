@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-accent-9: #CC0000; /* Soviet red */
+  --color-accent-11: #FFCC00; /* Gold */
+  --color-accent-12: #FFFFFF; /* White */
+}
+
+body {
+  background-color: #1a1a1a;
+  color: var(--color-accent-12);
+}
+
+@layer components {
+  .revolutionary-text {
+    text-shadow: 3px 3px 0px var(--color-accent-9);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .revolutionary-slogan {
+    text-shadow: 2px 2px 0px var(--color-accent-9);
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .revolutionary-button {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .revolutionary-header {
+    animation: shake 5s infinite;
+    transform-origin: center;
+  }
+
+  /* Add some soviet-inspired flourishes */
+  .text-accent-12 {
+    text-shadow: 2px 2px 0px var(--color-accent-9);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes glow {
+  0%, 100% { text-shadow: 3px 3px 0px var(--color-accent-9); }
+  50% { text-shadow: 3px 3px 20px var(--color-accent-9); }
+}
+
+@keyframes grow {
+  0%, 100% { transform: scaleX(1); }
+  50% { transform: scaleX(1.2); }
+}
+
+@keyframes slideLeft {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideRight {
+  from { transform: translateX(-100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite;
+}
+
+.animate-grow {
+  animation: grow 2s ease-in-out infinite;
+}
+
+.animate-slideLeft {
+  animation: slideLeft 0.5s ease-out forwards;
+}
+
+.animate-slideRight {
+  animation: slideRight 0.5s ease-out forwards;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out forwards;
+}
