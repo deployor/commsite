@@ -4,14 +4,13 @@ import { HandFist, Star } from '@phosphor-icons/react';
 export default function RevolutionaryHeader() {
   const [currentSlogan, setCurrentSlogan] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
-  const [starRotation, setStarRotation] = useState(0);
 
   const slogans = [
-    "VOTE FOR THE DIGITAL REVOLUTION!",
-    "YOUR VOTE IS YOUR WEAPON, COMRADE!",
-    "SEIZE THE MEANS OF PRODUCTION - VOTE NOW!",
-    "TRANSFORM HACK CLUB THROUGH YOUR VOTE!",
-    "EVERY VOTE STRENGTHENS THE REVOLUTION!"
+    "URGENT: TWO VOTES FOR VICTORY!",
+    "DOUBLE YOUR REVOLUTIONARY POWER!",
+    "VOTE HCP TWICE - THE TIME IS NOW!",
+    "TWO VOTES, ONE CAUSE - HCP!",
+    "STRENGTHEN THE REVOLUTION - USE BOTH VOTES!"
   ];
 
   useEffect(() => {
@@ -25,41 +24,15 @@ export default function RevolutionaryHeader() {
     return () => clearInterval(interval);
   }, []);
 
-  useEffect(() => {
-    const rotateInterval = setInterval(() => {
-      setStarRotation(prev => (prev + 1) % 360);
-    }, 50);
-    return () => clearInterval(rotateInterval);
-  }, []);
-
   return (
     <div className="flex flex-col items-center gap-6 text-center mb-8">
-      <div className="flex items-center gap-4 animate-float">
-        <HandFist size={64} className="text-accent-9 animate-pulse" weight="fill" />
-        <div className="flex flex-col items-center relative">
-          <Star 
-            size={48} 
-            className="text-accent-11 absolute" 
-            weight="fill"
-            style={{ 
-              transform: `rotate(${starRotation}deg)`,
-              transition: 'transform 0.05s linear'
-            }}
-          />
-          <Star 
-            size={32} 
-            className="text-accent-9 -mt-2" 
-            weight="fill"
-            style={{ 
-              transform: `rotate(${-starRotation}deg)`,
-              transition: 'transform 0.05s linear'
-            }}
-          />
-        </div>
-        <HandFist size={64} className="text-accent-9 animate-pulse" weight="fill" />
+      <div className="flex items-center gap-4">
+        <HandFist size={64} className="text-accent-9" weight="fill" />
+        <Star size={64} className="text-accent-11" weight="fill" />
+        <HandFist size={64} className="text-accent-9" weight="fill" />
       </div>
       
-      <h1 className="text-4xl font-bold text-accent-12 revolutionary-text animate-glow">
+      <h1 className="text-4xl font-bold text-accent-12 revolutionary-text">
         HACK CLUB COMMUNIST PARTY
       </h1>
       
@@ -79,22 +52,11 @@ export default function RevolutionaryHeader() {
         rel="noopener noreferrer"
         className="mt-4 bg-accent-9 hover:bg-red-800 text-white font-bold py-4 px-8 rounded-lg revolutionary-button transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-accent-9/50 animate-pulse"
       >
-        CAST YOUR REVOLUTIONARY VOTE NOW!
+        CAST YOUR TWO VOTES NOW!
       </a>
 
       <div className="mt-2 text-accent-11 text-sm">
-        Join the revolution - Every vote counts!
-      </div>
-
-      <div className="mt-4 flex flex-col items-center">
-        <p className="text-accent-11 text-lg animate-pulse">
-          Join the Digital Revolution!
-        </p>
-        <div className="flex items-center gap-2 mt-2">
-          <div className="h-px w-12 bg-accent-9 animate-grow"></div>
-          <Star size={24} className="text-accent-9" weight="fill" />
-          <div className="h-px w-12 bg-accent-9 animate-grow"></div>
-        </div>
+        Voting is LIVE - Use both votes for HCP!
       </div>
     </div>
   );

@@ -4,18 +4,18 @@ import { Brain } from '@phosphor-icons/react';
 export default function BreakingNews() {
   const breakingNews = [
     {
-      headline: "URGENT: Parliamentary Elections Now Open!",
-      content: "The time has come, comrade! Cast your vote now at hcparliament.ovh/online-ballot and help shape the future of Hack Club!",
+      headline: "BREAKING: VOTING IS LIVE - TWO VOTES FOR HCP!",
+      content: "URGENT: Comrades, the time is NOW! You have TWO votes - use them BOTH for HCP! Visit forms.fillout.com/t/kpB5PjqHmbus to cast your revolutionary votes!",
+      date: "Just now"
+    },
+    {
+      headline: "DOUBLE YOUR REVOLUTIONARY IMPACT",
+      content: "Every comrade has TWO votes - maximize your power by casting BOTH for HCP! Don't let a single vote go to waste in our march to victory!",
       date: "1 hour ago"
     },
     {
-      headline: "Record Numbers Join The Revolution",
-      content: "Thousands of comrades are making their voices heard in these historic elections. Every vote brings us closer to digital liberation!",
-      date: "3 hours ago"
-    },
-    {
       headline: "TRIUMPH: HCP Leads in Latest Polls!",
-      content: "Revolutionary momentum grows as HCP secures #1 position in latest polling! Join the winning side - your vote can secure our victory!",
+      content: "Revolutionary momentum grows as HCP secures #1 position in latest polling! Join the winning side - your TWO votes can secure our victory!",
       date: "5 hours ago"
     }
   ];
